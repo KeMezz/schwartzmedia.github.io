@@ -1,0 +1,68 @@
+@mixin flexConCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin containerDefaults {
+    padding: 0 2rem;
+    margin: 4rem 0;
+    @media (min-width: 768px) {
+        max-width: 1040px;
+    }
+    @media (max-width: 580px) {
+        margin: 0.6rem;
+        padding: 0 1rem;
+    }
+}
+
+@mixin h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+@mixin h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+@mixin h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+@mixin p {
+    font-size: 1.4rem;
+    line-height: 1.4;
+}
+
+@mixin responsiveSmallFonts {
+    @media (max-width: 768px) {
+        font-size: 1rem;
+    }
+}
+
+@mixin btnA {
+    border: solid 1px lightgray;
+    padding: 0.6rem 1rem;
+    margin-bottom: 0.2rem;
+    min-width: 130px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.4s;
+    &:hover {
+        background-color: black;
+        color: white;
+    }
+}
+
+@mixin figure {
+    height: 0;
+    padding-bottom: 70%;
+    background-size: cover;
+    background-position: center;
+}
