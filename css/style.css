@@ -175,7 +175,6 @@ main {
 .banner .banner___img figure {
   width: 950px;
   height: 680px;
-  background-image: url("/img/01.png");
   background-size: cover;
   background-position: center;
 }
