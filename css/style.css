@@ -87,10 +87,6 @@ header .menu .menu___hamburger {
   }
 }
 
-header .menu .menu___hamburger.active {
-  margin-right: 0;
-}
-
 header .header___logo {
   display: -webkit-box;
   display: -ms-flexbox;
